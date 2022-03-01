@@ -113,7 +113,7 @@ dividi-los no corpo do texto.}.
 \label{tab-nivinv}
 \begin{tabular}{p{2.6cm}|p{6.0cm}|p{2.25cm}|p{3.40cm}}
   %\hline
-   \textbf{Nível de Investigação} & \textbf{Insumos}  & \textbf{Sistemas de Investigação}  & \textbf{Produtos}  \\
+  \textbf{Nível de Investigação} & \textbf{Insumos}  & \textbf{Sistemas de Investigação}  & \textbf{Produtos}  \\
     \hline
     Meta-nível & Filosofia\index{filosofia} da Ciência  & Epistemologia &
     Paradigma  \\
@@ -122,7 +122,7 @@ dividi-los no corpo do texto.}.
     Ciência  & Teorias e modelos \\
     \hline
     Nível inferior & Modelos e métodos do nível do objeto e problemas do nível inferior & Prática & Solução de problemas  \\
-   % \hline
+  % \hline
 \end{tabular}
 \legend{Fonte: \cite{van86}}
 \end{table}
@@ -139,13 +139,13 @@ acadêmicos.
 }{%
   \begin{tabular}{ccc}
   \toprule
-   Nome & Nascimento & Documento \\
+  Nome & Nascimento & Documento \\
   \midrule \midrule
-   Maria da Silva & 11/11/1111 & 111.111.111-11 \\
+  Maria da Silva & 11/11/1111 & 111.111.111-11 \\
   \midrule 
-   João Souza & 11/11/2111 & 211.111.111-11 \\
+  João Souza & 11/11/2111 & 211.111.111-11 \\
   \midrule 
-   Laura Vicuña & 05/04/1891 & 3111.111.111-11 \\
+  Laura Vicuña & 05/04/1891 & 3111.111.111-11 \\
   \bottomrule
 \end{tabular}%
 }{%
@@ -370,7 +370,7 @@ subdividida em alíneas \cite[4.2]{NBR6024:2012}:
 e o início da frase do parágrafo, é definido por:
 
 \begin{verbatim}
-   \setlength{\parindent}{1.3cm}
+  \setlength{\parindent}{1.3cm}
 \end{verbatim}
 
 \index{espaçamento!do primeiro parágrafo}Por padrão, não há espaçamento no
@@ -380,7 +380,7 @@ também seja indentado, como é o caso deste documento. Para isso, apenas inclua
 pacote \textsf{indentfirst} no preâmbulo do documento:
 
 \begin{verbatim}
-   \usepackage{indentfirst}      % Indenta o primeiro parágrafo de cada seção.
+  \usepackage{indentfirst}      % Indenta o primeiro parágrafo de cada seção.
 \end{verbatim}
 
 \index{espaçamento!entre os parágrafos}O espaçamento entre um parágrafo e outro
@@ -423,13 +423,13 @@ de modo que cada arquivo incluído fique em uma página diferente, utilize o
 comando:
 
 \begin{verbatim}
-   \include{documento-a-ser-incluido}      % sem a extensão .tex
+  \include{documento-a-ser-incluido}      % sem a extensão .tex
 \end{verbatim}
 
 Para incluir documentos sem quebra de páginas, utilize:
 
 \begin{verbatim}
-   \input{documento-a-ser-incluido}      % sem a extensão .tex
+  \input{documento-a-ser-incluido}      % sem a extensão .tex
 \end{verbatim}
 
 % ---
@@ -447,12 +447,12 @@ comandos, que devem ser digitados no \emph{Prompt de Comandos} do Windows ou no
 \emph{Terminal} do Mac ou do Linux:
 
 \begin{verbatim}
-   pdflatex ARQUIVO_PRINCIPAL.tex
-   bibtex ARQUIVO_PRINCIPAL.aux
-   makeindex ARQUIVO_PRINCIPAL.idx 
-   makeindex ARQUIVO_PRINCIPAL.nlo -s nomencl.ist -o ARQUIVO_PRINCIPAL.nls
-   pdflatex ARQUIVO_PRINCIPAL.tex
-   pdflatex ARQUIVO_PRINCIPAL.tex
+  pdflatex ARQUIVO_PRINCIPAL.tex
+  bibtex ARQUIVO_PRINCIPAL.aux
+  makeindex ARQUIVO_PRINCIPAL.idx 
+  makeindex ARQUIVO_PRINCIPAL.nlo -s nomencl.ist -o ARQUIVO_PRINCIPAL.nls
+  pdflatex ARQUIVO_PRINCIPAL.tex
+  pdflatex ARQUIVO_PRINCIPAL.tex
 \end{verbatim}
 
 % ---
